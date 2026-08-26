@@ -1,0 +1,202 @@
+{
+  "name": "Manikandan L",
+  "shortName": "Mani",
+  "role": "Software Developer",
+  "specializations": ["Full Stack Web Development", "Data Engineering & Distributed Systems"],
+  "tagline": "Software Developer with hands-on experience in full-stack web development and data engineering, passionate about building scalable applications and data-driven solutions.",
+  "bio": "I’m a Software Developer focused on building scalable web applications and data-driven solutions. I work across full-stack development and data engineering, combining modern web technologies with cloud, big data, and distributed processing tools. From crafting responsive, accessible user interfaces to engineering robust event-driven streaming pipelines and medallion data platforms, I build systems that are clean, resilient, and production-ready.",
+  "edition": "VOL. 26 // ISSUE 2026",
+  "availability": "Open for Full-time Roles & Freelance Opportunities",
+  "contact": {
+    "email": "manilg26krish@gmail.com",
+    "backupEmail": "manibio.26.10@gmail.com",
+    "phone": "+91 8248212154",
+    "location": "Tiruppur, Tamil Nadu",
+    "website": "https://mani-kandan-portfolio.vercel.app/",
+    "github": "https://github.com/williammaddy",
+    "linkedin": "https://www.linkedin.com/in/mani-kandan-l-7b1522356/",
+    "resumeUrl": "#contact"
+  },
+  "skillCategories": [
+    {
+      "id": "programming",
+      "title": "Programming",
+      "color": "amber",
+      "accent": "#F59E0B",
+      "icon": "code",
+      "skills": ["Python", "SQL", "Java","JavaScipt"]
+    },
+    {
+      "id": "fullstack",
+      "title": "Full Stack",
+      "color": "sky",
+      "accent": "#38BDF8",
+      "icon": "layers",
+      "skills": ["HTML", "CSS", "React.js", "Node.js", "Express.js"]
+    },
+    {
+      "id": "bigdata",
+      "title": "Big Data",
+      "color": "indigo",
+      "accent": "#6366F1",
+      "icon": "database",
+      "skills": ["Apache Spark", "PySpark", "Spark SQL", "Delta Lake", "Databricks", "ETL/ELT Pipeline Design"]
+    },
+    {
+      "id": "streaming",
+      "title": "Streaming",
+      "color": "rose",
+      "accent": "#FB7185",
+      "icon": "zap",
+      "skills": ["Spark Structured Streaming", "Apache Kafka"]
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud (AWS)",
+      "color": "emerald",
+      "accent": "#10B981",
+      "icon": "cloud",
+      "skills": ["AWS S3", "IAM", "EC2", "Lambda", "Athena", "Glue"]
+    },
+    {
+      "id": "datawarehousing",
+      "title": "Data Warehousing",
+      "color": "purple",
+      "accent": "#A855F7",
+      "icon": "grid",
+      "skills": ["Star Schema", "Snowflake Schema", "Fact & Dimension Modeling", "SCD Type 1 & 2", "Unity Catalog"]
+    },
+    {
+      "id": "orchestration",
+      "title": "Orchestration",
+      "color": "orange",
+      "accent": "#FB923C",
+      "icon": "cpu",
+      "skills": ["Apache Airflow", "Databricks Workflows"]
+    },
+    {
+      "id": "tools",
+      "title": "Databases & Tools",
+      "color": "teal",
+      "accent": "#14B8A6",
+      "icon": "terminal",
+      "skills": ["MySQL", "MongoDB", "Git", "GitHub", "Docker", "Linux", "Snowflake"]
+    }
+  ],
+  "freelanceProject": {
+    "title": "Surya Stores – E-Commerce & Order Management System",
+    "category": "Client Freelance Project",
+    "status": "In Progress",
+    "description": "Developing a full-stack e-commerce platform for a stationery business, with a customer interface for browsing products, adding items to cart, and submitting orders.",
+    "features": [
+      "Product management system with category filtering",
+      "Shopping cart functionality & seamless order submission",
+      "Admin dashboard for product management & order tracking",
+      "JWT-based authentication & role-based access control",
+      "REST APIs connecting React frontend to Node.js/Express backend",
+      "Order notifications dispatched via Email and WhatsApp"
+    ],
+    "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
+    "badge": "Client System In Progress",
+    "github": "",
+    "live": ""
+  },
+  "projects": [
+    {
+      "id": "eventbook",
+      "title": "EventBook – Event Booking & Management System",
+      "subtitle": "Full-Stack Event Platform with Role-Based Portals",
+      "category": "Full Stack Development",
+      "description": "Full-stack event booking platform where customers browse events, view details, and book tickets, with role-based access for customers and administrators.",
+      "features": [
+        "Implemented JWT-based authentication and role-based authorization for customers and administrators",
+        "Built an Admin Dashboard for event creation (image upload, pricing, venue, schedule, ticket availability) and booking management",
+        "Developed a My Bookings section and integrated REST APIs via Axios with Express.js and MongoDB, with protected routes and role-based navigation"
+      ],
+      "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Axios", "CSS"],
+      "github": "https://github.com/williammaddy/eventbook",
+      "live": "",
+      "type": "fullstack"
+    },
+    {
+      "id": "streaming-pipeline",
+      "title": "Real-Time Order Analytics Streaming Pipeline",
+      "subtitle": "Event-Driven Data Pipeline with Watermarking & Docker",
+      "category": "Data Engineering & Streaming",
+      "description": "Fully containerized real-time pipeline ingesting and analyzing e-commerce order events using Apache Kafka and Spark Structured Streaming.",
+      "features": [
+        "Built a Kafka producer and a Spark Structured Streaming job to consume and process live order events in real time",
+        "Implemented windowed aggregations with watermarking for per-category revenue/order counts, handling late data correctly",
+        "Persisted output to checkpointed Parquet and built a live Streamlit dashboard; containerized all services with Docker Compose"
+      ],
+      "pipelineFlow": ["Kafka Ingestion", "Spark Streaming", "Parquet Store", "Streamlit UI"],
+      "tech": ["Apache Kafka", "Spark Structured Streaming", "Docker", "Docker Compose", "Python", "Parquet", "Streamlit"],
+      "github": "https://github.com/williammaddy",
+      "live": "",
+      "type": "streaming"
+    },
+    {
+      "id": "fmcg-pipeline",
+      "title": "End-to-End FMCG Data Engineering Pipeline",
+      "subtitle": "Medallion Architecture & M&A Data Integration",
+      "category": "Cloud & Big Data Engineering",
+      "description": "Simulated FMCG/retail M&A scenario integrating Parent and Child company sales data into a unified data platform.",
+      "features": [
+        "Architected a 3-layer Medallion Architecture (Bronze → Silver → Gold) on AWS S3 and Databricks into analytics-ready tables",
+        "Engineered Full Load and Incremental Load pipelines using Delta Lake Merge/Upsert to integrate records without duplication",
+        "Built data quality validation logic and orchestrated the pipeline with Databricks Workflows; delivered a KPI dashboard"
+      ],
+      "medallionFlow": ["AWS S3", "Bronze Layer", "Silver Layer", "Gold Layer", "KPI Dashboard"],
+      "tech": ["AWS S3", "Databricks", "PySpark", "Spark SQL", "Delta Lake", "Unity Catalog", "ETL", "Data Warehousing"],
+      "github": "https://github.com/williammaddy",
+      "live": "",
+      "type": "medallion"
+    },
+    {
+      "id": "chat-app",
+      "title": "Real-Time Chat Application",
+      "subtitle": "WebSocket Instant Messaging Platform",
+      "category": "Full Stack & WebSockets",
+      "description": "A full-stack real-time chat application with instant messaging, online presence tracking, and real-time communication using WebSockets.",
+      "features": [
+        "Bi-directional WebSocket communication for zero-latency instant messaging",
+        "User authentication, persistent chat history, and online presence indicators",
+        "Responsive, modern UI built with Next.js, Tailwind CSS, and MongoDB storage"
+      ],
+      "tech": ["React", "Next.js", "Node.js", "Socket.io", "MongoDB", "Tailwind CSS"],
+      "github": "https://github.com/williammaddy/JiloChatApp",
+      "live": "",
+      "type": "chat"
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science — Computer Science",
+    "timeline": "2023 – 2026",
+    "institution": "Bharathidasan University",
+    "location": "Tiruchirappalli – 620 024, Tamil Nadu",
+    "highlights": [
+      "Core coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems",
+      "Special focus on Full Stack Web Development, Distributed Data Processing, and Cloud Architectures"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "Fullstack Web Development",
+      "issuer": "Udemy",
+      "topics": ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+      "badge": "Full Stack"
+    },
+    {
+      "name": "Data Warehousing Concepts",
+      "issuer": "Udemy",
+      "topics": ["Star Schema", "Snowflake Schema", "Fact/Dimension Modeling", "SCD 1 & 2"],
+      "badge": "Data Architecture"
+    },
+    {
+      "name": "Apache Spark with PySpark",
+      "issuer": "Udemy",
+      "topics": ["PySpark DataFrames", "Spark SQL", "Distributed Processing", "Delta Lake"],
+      "badge": "Big Data"
+    }
+  ]
+}
