@@ -83,23 +83,30 @@
       "skills": ["MySQL", "MongoDB", "Git", "GitHub", "Docker", "Linux", "Snowflake"]
     }
   ],
-  "freelanceProject": {
+   "freelanceProject": {
     "title": "Surya Stores – E-Commerce & Order Management System",
     "category": "Client Freelance Project",
-    "status": "In Progress",
-    "description": "Developing a full-stack e-commerce platform for a stationery business, with a customer interface for browsing products, adding items to cart, and submitting orders.",
+    "status": "Completed",
+    "description": "Completed a full-stack e-commerce and order management platform for a stationery business, enabling customers to browse products, filter by categories, add items to cart, and submit orders through a responsive web interface.",
     "features": [
       "Product management system with category filtering",
-      "Shopping cart functionality & seamless order submission",
-      "Admin dashboard for product management & order tracking",
-      "JWT-based authentication & role-based access control",
+      "Shopping cart functionality and seamless order submission",
+      "Admin dashboard for product management and order tracking",
+      "JWT-based authentication and role-based access control",
       "REST APIs connecting React frontend to Node.js/Express backend",
       "Order notifications dispatched via Email and WhatsApp"
     ],
-    "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
-    "badge": "Client System In Progress",
+    "tech": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "REST API"
+    ],
+    "badge": "Client Project – Completed",
     "github": "",
-    "live": ""
+    "live": "https://surya-stores.vercel.app"
   },
   "projects": [
     {
